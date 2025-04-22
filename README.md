@@ -33,8 +33,8 @@ frontend/
 │
 ├── src/
 │   ├── components/
+│   ├── api/
 │   ├── pages/
-│   ├── hooks/
 │   ├── App.jsx
 │   └── index.js
 └── public/
@@ -77,7 +77,7 @@ frontend/
    ```
    JWT_SECRET=your_jwt_secret_key
    JWT_EXPIRES_IN=1d
-   PORT=5000
+   PORT=3000
    ```
 
 4. Start the server:
@@ -99,7 +99,7 @@ frontend/
 
 3. Create `.env`:
    ```
-   REACT_APP_API_URL=http://localhost:5000
+   REACT_APP_API_URL=http://localhost:3000
    ```
 
 4. Start the React app:
@@ -156,7 +156,7 @@ Roles are embedded in the JWT and validated via middleware.
 ### Backend (`backend/.env`)
 
 ```
-PORT=5000
+PORT=5001
 JWT_SECRET=your_jwt_secret
 JWT_EXPIRES_IN=1d
 ```
@@ -164,7 +164,7 @@ JWT_EXPIRES_IN=1d
 ### Frontend (`frontend/.env`)
 
 ```
-REACT_APP_API_URL=http://localhost:5000
+REACT_APP_API_URL=http://localhost:3000
 ```
 
 ---

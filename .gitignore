@@ -1,0 +1,27 @@
+# Node
+node_modules/
+
+# Environment variables
+.env
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# OS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+
+# Tests
+coverage/
+
+# Backend & Frontend Specific
+backend/node_modules/
+backend/.env
+
+frontend/node_modules/
+frontend/.env
